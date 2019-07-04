@@ -1,0 +1,23 @@
+1.download this file
+# https://drive.google.com/open?id=1U4uufWFfVsKM9QNoDIzyD2-5xCmBWnrk
+
+
+FOR LINUX
+---------------
+2.in the terminal,execute this command:
+# sudo apt install network-manager-openvpn network-manager-openvpn-gnome
+
+3.add VPN connection
+	3.1 Go to Settings->Network-> 
+	3.2 Click the “+” button near to VPN -> Choose Import from file …
+	3.3 choose client.ovpn
+4. Turn it on
+
+
+FOR WINDOWS
+--------------------
+2. download and install the application from https://openvpn.net/community-downloads/ 
+3. put the downloaded file in C:\Users\{username}\OpenVPN\config
+with replacing {username} with your username
+4. start OpenVPN
+5 right click and choose client -> connect
